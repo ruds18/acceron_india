@@ -7,10 +7,7 @@ import User3 from "../Assets/USER3.png"
 import tagline from "../Assets/acceron_branding.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import { FaAddressCard, FaClock, FaQuoteRight, FaQuoteLeft} from "react-icons/fa";
-import {IoIosPeople} from "react-icons/io"
-import {GiDart} from "react-icons/gi"
-import {RiMotorbikeFill} from "react-icons/ri"
+import { FaAddressCard, FaClock, FaNetworkWired, FaCalendarTimes, FaWalking, FaQuoteRight, FaQuoteLeft} from "react-icons/fa";
 import slide_one from "../Assets/fork_oil.png"
 import slide_two from "../Assets/1l_conc_coolant.png"
 import slide_three from "../Assets/1l_90.png"
@@ -31,7 +28,7 @@ function Home() {
           <div className='company_tagline'>
             <img src={tagline} alt="tagline" />
             
-            <div className="home_carousel ">
+            {/* <div className="home_carousel ">
               <Carousel autoPlay infiniteLoop interval={2500} showStatus={false} showThumbs={false} showArrows={false}>
                 <div className="card_home_carousel">
                     <img className="img_carousel" src={slide_one} alt="" />
@@ -43,7 +40,7 @@ function Home() {
                   <img src={slide_three} alt="" />  
                 </div>
               </Carousel>
-            </div>
+            </div> */}
 
           </div>
         </div>
@@ -118,7 +115,7 @@ function Home() {
             </div>
 
             <div className='row_values'>
-              <div><IoIosPeople className='icon'/></div>
+              <div><FaNetworkWired className='icon'/></div>
               <div>
                 <div className='subheading_values'>Ownership</div>
                 <div className=''>Where the vision becomes not just the company goal but the individual goal as well.</div>
@@ -126,7 +123,7 @@ function Home() {
             </div>
 
             <div className='row_values'>
-              <div><RiMotorbikeFill className='icon'/></div>
+              <div><FaCalendarTimes className='icon'/></div>
               <div>
                 <div className='subheading_values'>Performance driven</div>
                 <div className=''>Rewarding performers across verticals, thereby setting examples for leadership.</div>
@@ -134,7 +131,7 @@ function Home() {
             </div>
 
             <div className='row_values'>
-              <div><GiDart className='icon'/></div>
+              <div><FaWalking className='icon'/></div>
               <div>
                 <div className='subheading_values'>Agility</div>
                 <div className=''>Change is constant. This equips the organization to respond rapidly to this dynamic world</div>
