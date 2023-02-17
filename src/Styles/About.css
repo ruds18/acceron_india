@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #fffbf5  ; */
+}
+
+
+.about_heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+    /* margin-left: 5%; */
+    text-align: center;
+    /* margin-top: 25px; */
+}
+.heading_underline{
+    border: 3px solid black;
+    width: 9%;
+    margin-left: 45.5%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}  
+
+.slide_one{
+    margin: 30px auto;
+    height: 570px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    background-color: #f0efef ;
+}
+.image_ceo{
+    height: 90%;
+}
+.image{
+    height: 500px;
+}
+.designation{
+    /* border: 2px solid black; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    z-index: 10;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.component_office{
+    width: 60%;
+    height: 400px;
+    margin: 25px auto;
+    border-radius: 5px;
+    display: flex;
+    background-color: #1A1C39;
+    /* background-color: black; */
+}
+.image_office{
+    height: 400px;
+    width: 70%;
+    border-radius: 5px;
+}
+.office_info{
+    color: #FBCA8D;
+    /* color: white; */
+    margin-left: 25px;
+    margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+u{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.production_image{
+    width: 40%;
+    height: 350px;
+    margin: 25px auto;
+    border-radius: 5px;
+    display: flex;
+    background-color: #1A1C39;
+    border-radius: 5px;
+}
+.image_production{
+    height: 350px;
+    width: 65%;
+    border-radius: 5px;
+}
+.faculty_info{
+    color: #FBCA8D;
+    /* color: white; */
+    margin-left: 25px;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+span{
+    display: flex;
+}

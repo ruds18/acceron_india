@@ -10,31 +10,8 @@
     background-color: #fffbf5;
 }
 
-.navbar{
-    display: flex;
-    height: 133px;
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #fffbf5;
-}
 
-.logo{
-    /* border: 2px solid red; */
-    width: 162px;
-    height: 133px;
-}
-
-.pages{
-    /* border: 2px solid blue; */
-    width: 45%;
-    display: flex;
-    font-size: 1.5rem ;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-}
+/* landing screen */
 
 .home_screen1{
     display: flex ;
@@ -57,10 +34,35 @@
     /* border-radius: 2px; */
 }
 .banner{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100%;
     border-radius: 10px;
     margin: 10% 0% 0% 20% ;
+}
+
+.company_tagline img{
+    /* border: 2px solid black; */
+    margin: 7.5% 0% 0% 30%;
+    height: 40%;
+    width: 110%;
+}
+
+.home_carousel{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin-left: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.img_carousel{
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
 }
 
 .reach{
@@ -74,7 +76,8 @@
 }
 
 .reach_info{
-    border: 2px solid black;
+    display: flex;
+    /* border: 2px solid black; */
     width: 25%;
     height: 50%;
     border-radius: 5px;
@@ -83,12 +86,17 @@
 }
 
 .reach_sub_info{
-    display: absolute;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
+
+/* AUTOMOTIVE LUBRICANT  */
+
 .automotive_lubricant{
-    border: 2px solid black;
+    border: 2px solid #FBCA8D;
     background-color: #FBCA8D;
     margin-top: 100px;
     width: 100wh;
@@ -120,7 +128,7 @@
     height: 45px;
     background-color: black;
     border-radius: 5px;
-    margin-top: 1.5%;
+    margin-top: 1%;
     float: right;
     margin-right: 10%;
 }
@@ -128,4 +136,230 @@
     color: #FBCA8D;
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+
+/* VISION AND VALUES  */
+
+.vision_n_values{
+    display: flex;
+    margin-top: 50px;
+    height: 90vh;
+    width: 100wh;
+    background-color: #1A1C39;
+    justify-content: space-evenly;
+}
+.vision{
+    width: 40%;
+    margin-top: 4%;
+    /* border: 2px solid white; */
+}
+.values{
+    width: 40%;
+    margin-top: 4%;
+    /* border: 2px solid white; */
+}
+
+.vision_heading{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.vision_box{
+    display: flex;
+    background-color: #FBCA8D;
+    height: 25%;
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20vh;
+}
+.vision_content{
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+}
+.vision_content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.vision_content p i{
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+.values_heading{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.border_bottom{
+    width: 17%;
+    height: 5px;
+    background-color:#FBCA8D ;
+    margin: auto;
+    margin-top: 2px;
+}
+.values_content{
+    /* border: 2px solid pink;/ */
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    color: white;
+    height: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.subheading_values{
+    font-size: 1.5rem;
+    font-weight: 600 ;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+/* TESTIMONIAL  */
+
+
+.heading {
+    text-align: center;
+    color: #454343;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    z-index: 999;
+}
+.white-heading{
+    color: #ffffff;
+}
+.heading:after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 40px;
+    width: 180px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    /* background: url(img/heading-line.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.white-heading:after {
+    background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading span {
+    font-size: 18px;
+    display: block;
+    font-weight: 500;
+}
+.white-heading span {
+    color: #ffffff;
+}
+/*-----Testimonial-------*/
+
+.reviews{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBCA8D;
+    margin: 50px 0;
+}
+
+.container_reviews{
+    height: 500px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #1A1C39;
+    display: flex;
+}
+
+.left-column{
+    margin: 2%;
+    margin-left: 4%;
+    width: 35%;
+    color: #FBCA8D;
+}
+
+.bi-quote{
+    font-size: 4rem;
+}
+
+.left-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.column-right{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 375px;
+    width: 39%;
+    background-color: #F7EFE5;
+    z-index: 4;
+    margin: auto 0;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.user{
+    display: flex;
+}
+.user-photo{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.img-user{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-size: 1.5rem;
+    font-family: 'Robot', sans-serif;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.review-text{
+    font-size: 1.1rem;
+    font-family: 'Robot', sans-serif;
+    margin: 3% 6% 0 5%;
+    line-height: 1.5rem;
+}
+.position{
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+    margin-right: 6%;
+    margin-top: 16px;
+}
+
+.row_values{
+    display: flex;
+    margin: 10px;
+}
+
+.icon{
+    font-size: 2rem;
+    margin: 1rem;
+    margin-right: 30px ;
 }

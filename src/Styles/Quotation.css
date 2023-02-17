@@ -1,0 +1,82 @@
+.container{
+    /* border: 2px solid pink; */
+    width: 100%;
+    height: 100vh;
+    background-color: #1A1C39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border: 3px solid #FBCA8D;
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.label{
+    color: #FBCA8D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.row{
+    margin: 4% auto;
+    /* border: 2px solid white; */
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.row_message{
+    /* border: 2px solid white; */
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: 5% auto;
+}
+
+
+.rowcol{
+    display: flex;
+    flex-direction: column;
+}
+.col2{
+    margin-right: 15%;
+}
+
+.input{
+    border: none;
+    background-color: #1A1C39;
+    border-bottom: 7px solid  #FBCA8D;
+    margin-top: 15%;
+    width: 150%;
+    line-height: 2rem;color: #FBCA8D;
+    caret-color: #FBCA8D;
+    font-size: 1rem;
+}
+
+textarea{
+    border: none;
+    background-color: #1A1C39;
+    border-bottom: 7px solid  #FBCA8D;
+    width: 93%;
+    line-height: 2rem;color: #FBCA8D;
+    caret-color: #FBCA8D;
+    font-size: 1rem;
+}
+
+button{
+    float:right;
+    margin-right: 15%;
+    height: 40px;
+    width: 100px;
+    font-size: 1rem;
+    background-color: #FBCA8D ;
+    color: #1A1C39;
+    /* border: 2px solid #FBCA8D; */
+    border-radius: 10px;
+    font-weight: 700;
+}
